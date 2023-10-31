@@ -20,8 +20,10 @@ public class Day8 { // all possiblle combinations to find a number
     }
 
      public static void main(String[] args){
+        /*
          <List<List<Integer>> ans =  new ArrayList<>();
          findCombinations(0,arr,target,ans,new ArrayList<>());
          return ans;
+         */
      }
 }

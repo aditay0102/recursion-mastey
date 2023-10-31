@@ -14,6 +14,7 @@ public class Day6 {
         }
         // take one condition
         list.add(arr[index]);
+
         seq(index+1,list,arr,n);
         list.remove(list.size()-1);
 
@@ -46,6 +47,8 @@ public class Day6 {
 
         seq(0,list,arr,arr.length);
         */
+
+
         String s  = "abc";
         char[] arr = s.toCharArray();
         ArrayList<Character> list = new ArrayList<>();

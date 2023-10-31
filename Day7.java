@@ -36,7 +36,7 @@ public class Day7 {
         int[] arr = {1,2,1};
         int s = 2;
         ArrayList<Integer> list = new ArrayList<>();
-        Subsum(0,list,arr,0,2,arr.length);
+        Subsum(0,list,arr,0,s,arr.length);
 
     }
 }
