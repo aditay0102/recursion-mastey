@@ -1,9 +1,8 @@
 import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.*;
 import java.io.*;
 
-public class Day10 {
+public class Day10 { // Subset Sum
     private static void fucn(int index, int sum, ArrayList<Integer> list, ArrayList<Integer> sumSubSet , int N){
         if(index == 0){
             sumSubSet.add(sum);
@@ -17,6 +16,10 @@ public class Day10 {
 
     }
     public static void main(String[] args){
+        ArrayList<Integer>arr = new ArrayList<>();
+        arr.add(2);
+        arr.add(3);
+
         ArrayList<Integer> sumSubset = new ArrayList<>();
         fucn(0,0,arr,N,sumSubset);
         Collections.sort(sumSubset);
